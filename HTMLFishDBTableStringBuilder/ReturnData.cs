@@ -39,31 +39,6 @@ namespace HTMLFishDBTableStringBuilder
 
             var Elements = elegetter.GetElements();
 
-            //Elements[0] = "Fish_Name";
-            //Elements[1] = "Fish_Size";
-            //Elements[2] = "Fish_Amount";
-            //Elements[3] = "Fish_Location";
-            //Elements[4] = "Wind_Speed";
-            //Elements[5] = "Water_Pressure";
-            //Elements[6] = "Month";
-            //Elements[7] = "Moon_Cycle";
-            //Elements[8] = "Medium";
-            //Elements[9] = "Wind_Direction";
-            //Elements[10] = "Air_Temperature";
-            //Elements[11] = "Time";
-            //Elements[12] = "Visibility";
-            //Elements[13] = "Water_Temperature";
-            //Elements[14] = "Water_Clarity";
-            //Elements[15] = "Humidity";
-            //Elements[16] = "4hr_air_change";
-            //Elements[17] = "4hr_water_change";
-            //Elements[18] = "4hr_pressure_change";
-            //Elements[19] = "8hr_air_change";
-            //Elements[20] = "8hr_water_change";
-            //Elements[21] = "8hr_pressure_change";
-            //Elements[22] = "24hr_air_change";
-            //Elements[23] = "24hr_water_change";
-            //Elements[24] = "24hr_pressure_change";
             var list = new List<string>();
             while (reader.Read())
             {
